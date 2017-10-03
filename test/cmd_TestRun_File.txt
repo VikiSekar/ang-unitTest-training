@@ -1,0 +1,300 @@
+    v should return -1 when item is not found in Array!!
+
+  testShould
+    v should return object type and properties!!
+
+
+  8 passing (19ms)
+
+
+C:\AngUnitTest\chai-mocha-basics>npm test
+
+> chai-mocha-basics@1.0.0 test C:\AngUnitTest\chai-mocha-basics
+> mocha
+
+C:\AngUnitTest\chai-mocha-basics\test\testSuiteRun.js:3
+suite('testInsteadofIt', function(){
+^
+
+ReferenceError: suite is not defined
+    at Object.<anonymous> (C:\AngUnitTest\chai-mocha-basics\test\testSuiteRun.js
+:3:1)
+    at Module._compile (module.js:624:30)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+    at Module.require (module.js:568:17)
+    at require (internal/module.js:11:18)
+    at C:\AngUnitTest\chai-mocha-basics\node_modules\mocha\lib\mocha.js:220:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (C:\AngUnitTest\chai-mocha-basics\node_modules\mocha\lib\
+mocha.js:217:14)
+    at Mocha.run (C:\AngUnitTest\chai-mocha-basics\node_modules\mocha\lib\mocha.
+js:469:10)
+    at Object.<anonymous> (C:\AngUnitTest\chai-mocha-basics\node_modules\mocha\b
+in\_mocha:404:18)
+    at Module._compile (module.js:624:30)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+    at Function.Module.runMain (module.js:665:10)
+    at startup (bootstrap_node.js:201:16)
+    at bootstrap_node.js:626:3
+npm ERR! Test failed.  See above for more details.
+
+C:\AngUnitTest\chai-mocha-basics>npm install suite
++ suite@0.1.2
+added 2 packages in 3.218s
+
+C:\AngUnitTest\chai-mocha-basics>npm test
+
+> chai-mocha-basics@1.0.0 test C:\AngUnitTest\chai-mocha-basics
+> mocha
+
+C:\AngUnitTest\chai-mocha-basics\test\testSuiteRun.js:3
+suite('testInsteadofIt', function(){
+^
+
+ReferenceError: suite is not defined
+    at Object.<anonymous> (C:\AngUnitTest\chai-mocha-basics\test\testSuiteRun.js
+:3:1)
+    at Module._compile (module.js:624:30)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+    at Module.require (module.js:568:17)
+    at require (internal/module.js:11:18)
+    at C:\AngUnitTest\chai-mocha-basics\node_modules\mocha\lib\mocha.js:220:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (C:\AngUnitTest\chai-mocha-basics\node_modules\mocha\lib\
+mocha.js:217:14)
+    at Mocha.run (C:\AngUnitTest\chai-mocha-basics\node_modules\mocha\lib\mocha.
+js:469:10)
+    at Object.<anonymous> (C:\AngUnitTest\chai-mocha-basics\node_modules\mocha\b
+in\_mocha:404:18)
+    at Module._compile (module.js:624:30)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+    at Function.Module.runMain (module.js:665:10)
+    at startup (bootstrap_node.js:201:16)
+    at bootstrap_node.js:626:3
+npm ERR! Test failed.  See above for more details.
+
+C:\AngUnitTest\chai-mocha-basics>npm test
+
+> chai-mocha-basics@1.0.0 test C:\AngUnitTest\chai-mocha-basics
+> mocha
+
+
+
+  One more test
+    v should pass again!!
+
+  testBetterAssert
+    v BetterAssert - Unit Test
+
+  #indexOf()
+    when not present
+      v should not throw an error
+      v should return -1
+    when present
+      v should return the index where the element first appears in the array
+
+  testExpect
+    v Expect - Unit Test
+
+  Assert
+    v should return -1 when item is not found in Array!!
+
+  testShould
+    v should return object type and properties!!
+
+
+  8 passing (19ms)
+
+
+C:\AngUnitTest\chai-mocha-basics>test npm
+'test' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\AngUnitTest\chai-mocha-basics>npm test
+
+> chai-mocha-basics@1.0.0 test C:\AngUnitTest\chai-mocha-basics
+> mocha
+
+
+
+  One more test
+    v should pass again!!
+
+  testBetterAssert
+    v BetterAssert - Unit Test
+
+  #indexOf()
+    when not present
+      v should not throw an error
+      v should return -1
+    when present
+      v should return the index where the element first appears in the array
+
+  testExpect
+    v Expect - Unit Test
+
+  Assert
+    v should return -1 when item is not found in Array!!
+
+  testShould
+    v should return object type and properties!!
+
+
+  8 passing (17ms)
+
+
+C:\AngUnitTest\chai-mocha-basics>npm test
+
+> chai-mocha-basics@1.0.0 test C:\AngUnitTest\chai-mocha-basics
+> mocha
+
+
+
+  One more test
+    v should pass again!!
+
+  testBetterAssert
+    v BetterAssert - Unit Test
+
+  #indexOf()
+    when not present
+      v should not throw an error
+      v should return -1
+    when present
+      v should return the index where the element first appears in the array
+
+  testExpect
+    v Expect - Unit Test
+
+  Assert
+    v should return -1 when item is not found in Array!!
+
+  testShould
+    v should return object type and properties!!
+
+
+  8 passing (21ms)
+
+
+C:\AngUnitTest\chai-mocha-basics>npm test
+
+> chai-mocha-basics@1.0.0 test C:\AngUnitTest\chai-mocha-basics
+> mocha
+
+C:\AngUnitTest\chai-mocha-basics\test\testRequire.js:6
+testSuite('#indexOf()', function(){
+^
+
+TypeError: testSuite is not a function
+    at Object.<anonymous> (C:\AngUnitTest\chai-mocha-basics\test\testRequire.js:
+6:1)
+    at Module._compile (module.js:624:30)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+    at Module.require (module.js:568:17)
+    at require (internal/module.js:11:18)
+    at C:\AngUnitTest\chai-mocha-basics\node_modules\mocha\lib\mocha.js:220:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (C:\AngUnitTest\chai-mocha-basics\node_modules\mocha\lib\
+mocha.js:217:14)
+    at Mocha.run (C:\AngUnitTest\chai-mocha-basics\node_modules\mocha\lib\mocha.
+js:469:10)
+    at Object.<anonymous> (C:\AngUnitTest\chai-mocha-basics\node_modules\mocha\b
+in\_mocha:404:18)
+    at Module._compile (module.js:624:30)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+    at Function.Module.runMain (module.js:665:10)
+    at startup (bootstrap_node.js:201:16)
+    at bootstrap_node.js:626:3
+npm ERR! Test failed.  See above for more details.
+
+C:\AngUnitTest\chai-mocha-basics>npm test
+
+> chai-mocha-basics@1.0.0 test C:\AngUnitTest\chai-mocha-basics
+> mocha
+
+
+
+  One more test
+    v should pass again!!
+
+  testBetterAssert
+    v BetterAssert - Unit Test
+
+  #indexOf()
+    when not present
+      v should not throw an error
+      v should return -1
+    when present
+      v should return the index where the element first appears in the array
+
+  testExpect
+    v Expect - Unit Test
+
+  Assert
+    v should return -1 when item is not found in Array!!
+
+  changeTestCaseNames
+    v should return -1 when not present
+
+  testShould
+    v should return object type and properties!!
+
+
+  9 passing (19ms)
+
+
+C:\AngUnitTest\chai-mocha-basics>npm test
+
+> chai-mocha-basics@1.0.0 test C:\AngUnitTest\chai-mocha-basics
+> mocha
+
+
+
+  One more test
+    v should pass again!!
+
+  testBetterAssert
+    v BetterAssert - Unit Test
+
+  #indexOf()
+    when not present
+      v should not throw an error
+      v should return -1
+    when present
+      v should return the index where the element first appears in the array
+
+  testExpect
+    v Expect - Unit Test
+
+  Assert
+    v should return -1 when item is not found in Array!!
+
+  changeTestCaseNames
+    v should return -1 when not present
+
+  testShould
+    v should return object type and properties!!
+
+
+  9 passing (19ms)
+
+
+C:\AngUnitTest\chai-mocha-basics>

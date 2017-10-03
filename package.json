@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jesseskinner/chai-mocha-basics.git"
+    "url": "https://github.com/VikiSekar/ang-unitTest-training.git"
   },
   "keywords": [
     "mocha",
@@ -17,9 +17,9 @@
   "author": "Vignesh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jesseskinner/chai-mocha-basics/issues"
+    "url": "https://github.com/VikiSekar/ang-unitTest-training.git"
   },
-  "homepage": "https://github.com/jesseskinner/chai-mocha-basics",
+  "homepage": "https://github.com/VikiSekar/ang-unitTest-training.git",
   "dependencies": {
     "better-assert": "^1.0.2",
     "chai": "^1.10.0",
