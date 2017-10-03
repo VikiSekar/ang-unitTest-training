@@ -14,14 +14,19 @@
     "mocha",
     "chai"
   ],
-  "author": "Jesse Skinner",
+  "author": "Vignesh",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jesseskinner/chai-mocha-basics/issues"
   },
   "homepage": "https://github.com/jesseskinner/chai-mocha-basics",
   "dependencies": {
+    "better-assert": "^1.0.2",
     "chai": "^1.10.0",
-    "mocha": "^2.0.1"
+    "expect": "^21.2.1",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.5.3",
+    "should": "^13.1.0",
+    "suite": "^0.1.2"
   }
 }
