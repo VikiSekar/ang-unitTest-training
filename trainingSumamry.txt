@@ -1,0 +1,29 @@
+Protractor
+
+Skimmed through following topics
+	-Spec and Config files
+	-Modifying Config File to create test suites
+	-How to start a Selenium WD using web manager (by default adds chrome and mozilla drivers, need to install IE driver, if required)
+	-Using locators in Protractor
+	-Understood difference between Selenium WebElements & Protractor ElementFinders
+	-Web Driver JS (Focus on migration to async/await from Promise Manager in ECMAScript Jun2017)
+	-Web Driver Control Flow (How Jasmine Expect & Chai Assert understands promise whereas Mocha expect doesn't)
+	-Using Page Objects
+	-How Protractor-> WebDriver JS -> Selenium -> Browser Driver -> Angular App communication happens!
+
+Assignment
+	-> Applied Page Objects concept to e2e protractor tests
+	-> Frame locators by model and bindings
+	-> Single conf.js to run multiple spec files
+	-> Single spec to execute multiple tests
+	-> Selecting a drop down option by containing text instead of option index
+	-> Running test on multiple browsers (Chrome & Firefox)
+	-> 
+
+Useful References:
+-Getting Started 
+https://github.com/angular/protractor/blob/master/docs/getting-started.md
+-Complete Guide and Methods Available on ElementFinder and descendant classes
+http://definitelytyped.org/docs/angular-protractor--angular-protractor/interfaces/protractor.elementfinder.html
+
+I have committed to same Git under /tests/e2e
