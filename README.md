@@ -1,4 +1,4 @@
-chai-mocha-basics
+Training
 =================
 
-A basic project with Chai Mocha testing.
+Demo project files.
