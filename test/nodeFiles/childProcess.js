@@ -5,7 +5,7 @@ if(process.argv[2] == 'child'){
 }else{
     var child = spawn(process.execPath,[__filename,'child'],{
         stdio:'inherit'
-    });
+ });
     
     //child.stdout.on('data',function(inp){
     //    console.log(inp.toString()," - This is the input captured from child..");

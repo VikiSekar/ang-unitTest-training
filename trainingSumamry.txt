@@ -18,7 +18,7 @@ Assignment
 	-> Single spec to execute multiple tests
 	-> Selecting a drop down option by containing text instead of option index
 	-> Running test on multiple browsers (Chrome & Firefox)
-	-> 
+	
 
 Useful References:
 -Getting Started 
@@ -26,4 +26,16 @@ https://github.com/angular/protractor/blob/master/docs/getting-started.md
 -Complete Guide and Methods Available on ElementFinder and descendant classes
 http://definitelytyped.org/docs/angular-protractor--angular-protractor/interfaces/protractor.elementfinder.html
 
-I have committed to same Git under /tests/e2e
+
+Node.js
+
+Gone a walkthrough on following topics
+	- Introduction on Node.js (How the server requests are handled asynchronously)
+	- Buffer Methods
+	- File System basic I/O (read,write,append)
+	- Asynchronous Thread Pool behaviour of Node.js server
+	- Node.js Process and Child Process
+	- Modules Import & Export
+	- Determine total size of files in a directory synchronously and asynchronously
+	- Read & Write Files based on config.json
+	- Delete the copied files based on user input & delete the code created folder if empty

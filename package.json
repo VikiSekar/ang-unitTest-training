@@ -27,6 +27,8 @@
     "expect.js": "^0.3.1",
     "jshint": "^2.9.5",
     "mocha": "^2.5.3",
+    "performance-now": "^2.1.0",
+    "prompt": "^1.0.0",
     "should": "^13.1.0",
     "suite": "^0.1.2"
   }

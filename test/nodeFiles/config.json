@@ -1,0 +1,1 @@
+[{"name":"File1.txt","source":"./sourceFiles","destination":"./destinationFiles","time_taken":"1.86285 ms"},{"name":"File2.txt","source":"./sourceFiles","destination":"./destinationFiles","time_taken":"0.29770 ms"},{"name":"File3.txt","source":"./sourceFiles","destination":"./destinationFiles","time_taken":"0.22616 ms"}]
