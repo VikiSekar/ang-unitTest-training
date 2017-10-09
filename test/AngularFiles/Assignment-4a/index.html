@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Stylesheets -->    
+        <link rel="stylesheet" href="../lib/angular-material-1.1.4.min.css">
+        <link rel="stylesheet" href="../Assignment-4a/tableStyle.css">
+
+        <!-- Angular and Dependencies -->
+        <script src="../lib/angular-1.6.4.min.js"></script>
+        <script src="../lib/angular-animate-1.6.4.min.js"></script>
+        <script src="../lib/angular-aria-1.6.4.min.js"></script>
+        <script src="../lib/angular-material-1.1.4.min.js"></script>
+        <script src="../Assignment-4a/app.js"></script>
+        <script src="../Assignment-4a/directives.js"></script>
+        <script src="../Assignment-4a/services.js"></script>
+        <script src="../Assignment-4a/controllers.js"></script>
+    </head>
+<body ng-app="libraryApp" ng-controller='mainCtrl' ng-cloak>
+    <md-content layout="column" layout-align="space-around center">
+        <md-toolbar>
+            <div class="md-toolbar-tools">
+                <h3>
+                <span>Digital Library</span>
+                </h3>
+            </div>
+        </md-toolbar><br/><br/>
+        
+        <b>Note:</b> Please run the code on a npm http-server, so as it allows to fetch other html files by cross-origin request<br/>
+        <h4>Hey there, welcome to our library. Which categories would you like to explore?</h4> 
+        <md-checkbox ng-repeat = 'category in categories' ng-model="category.isSelected" aria-label="{{category.name}}">
+               {{category.name}}
+        </md-checkbox>
+        <div layout="row" layout-align="space-around center" style="width:1200px;">
+            <div ng-repeat='category in categories' ng-show="category.isSelected" ng-controller="category.controller">
+                <books></books>
+            </div>
+        </div>
+        
+        <cart ng-if="cartItems.length"></cart>
+        
+        <br/>
+        
+    </md-content>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<md-subheader class='md-primary'>{{category.name}}</md-subheader>
+
+<table>
+    <tr>
+      <th>Book</th>
+      <th>Copies</th>
+      <th></th>
+    </tr>
+    <tr ng-repeat='book in books'>
+       <td>{{book.name}}</td>
+       <td ng-if='book.copies>0'>{{book.copies}}</td>
+       <td ng-if='book.copies<1'><font color='red'>Sold Out</font>
+       </td>
+       <td>
+           <md-button ng-disabled='book.copies<1' class="md-raised md-primary" ng-click="addToCart(book)">Add to Cart</md-button>
+        </td>
+    </tr>
+</table>
+
+

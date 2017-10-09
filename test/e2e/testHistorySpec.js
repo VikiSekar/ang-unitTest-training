@@ -25,7 +25,7 @@ describe('Protractor Demo - Super Calc',function(){
             expect(page.getHistory().first().getText()).toContain('10');
         });    
     
-    });
+});
 
 var SuperCalcPage = function(){
     var txtFirstInput = element(by.model('first'));

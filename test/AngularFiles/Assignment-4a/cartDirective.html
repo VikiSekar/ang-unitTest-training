@@ -1,0 +1,17 @@
+<md-subheader>Items in cart</md-subheader>
+<table>
+    <tr>
+      <th>Book</th>
+      <th>Copies</th>
+      <th></th>
+    </tr>
+    <tr ng-repeat='cartBook in cartItems'>
+       <td>{{cartBook.name}}</td>
+       <td>{{cartBook.copies}}</td>
+       <td><md-button class="md-raised md-primary" ng-click="removeFromCart(cartBook,$index)">Remove From Cart</md-button></td>
+    </tr>
+</table>
+<br/>
+
+<md-button class="md-raised md-primary" ng-click=checkOut()>CHECKOUT</md-button>
+
